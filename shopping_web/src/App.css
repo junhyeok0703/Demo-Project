@@ -1,0 +1,64 @@
+.header-login {
+  display: flex;
+  justify-content: end;
+}
+.header-login button {
+  margin-left: 10px;
+  border: 0px;
+  background-color: white;
+  cursor: pointer;
+}
+.navbar {
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+}
+.header-img {
+  display: flex;
+  justify-content: center;
+}
+.header {
+  padding: 30px;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  color: black;
+  margin-left: 30px;
+}
+
+.search {
+  position: absolute;
+  border-bottom: 1px solid black;
+  width: 200px;
+  right: 180px;
+  top: 140px;
+  display: flex;
+}
+.search input {
+  border: 0px;
+}
+@media (max-width: 1300px) {
+  .search {
+    display: none;
+  }
+}
+.card-border {
+  transition: all 0.2s linear;
+
+  img {
+    transition: transform 0.2s linear;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.product-img {
+  display: flex;
+  justify-content: flex-end;
+}
+.product-img img {
+  width: 300px;
+  height: 400px;
+}

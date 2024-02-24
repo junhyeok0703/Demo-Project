@@ -1,0 +1,22 @@
+.Box {
+  display: flex;
+  border: 10px solid black;
+  width: 300px;
+  height: 300px;
+  flex-direction: column;
+  text-align: center;
+}
+img {
+  width: 150px;
+  height: 150px;
+}
+
+.lose {
+  border: 10px solid red;
+}
+.win {
+  border: 10px solid green;
+}
+.tie {
+  border: 10px solid black;
+}
